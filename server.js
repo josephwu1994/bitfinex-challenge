@@ -1,3 +1,7 @@
+/* Added an Express backend to act as a proxy to prevent client 
+side cors from blocking connection, but failed to do so. */
+
+
 const app = require('express')();
 const cors = require('cors');
 const io = require('socket.io');
@@ -20,7 +24,3 @@ clientSocket.on('connection', (socket) => {
     socket.emit('ticker', data)
   })
 })
-
-
-
-

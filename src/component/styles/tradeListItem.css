@@ -1,0 +1,6 @@
+.tradeListItem{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  font-size: 1rem;
+}

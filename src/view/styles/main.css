@@ -1,0 +1,15 @@
+.mainContainer {
+  width: 70vw;
+  height: 55vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.switch {
+  cursor: pointer;
+}
+
+.tickerText {
+  color: rgb(170, 170, 170);
+}

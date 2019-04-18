@@ -1,0 +1,9 @@
+.tradeListContainer {
+  text-align: right;
+  display:flex;
+  flex-direction: column;
+}
+
+.tradeTitleText {
+  width: calc( 100% / 3);
+}
